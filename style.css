@@ -1,0 +1,45 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    background-color: #fffae4;
+
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    padding: 30px;
+    color: blue;
+    background-color: #335230;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header-links {
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    gap: 50px;
+}
+
+#hero {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero h1 {
+    font-size: 80px;
+}
+
+svg {
+    position: absolute;
+    size: 200%;
+}
